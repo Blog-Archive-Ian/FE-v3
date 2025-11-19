@@ -101,6 +101,7 @@ const Editor = () => {
   return (
     <div ref={editorRef}>
       <MDEditor
+        data-color-mode="light"
         className="mt-[20px]"
         value={contents}
         onChange={handleChange}
